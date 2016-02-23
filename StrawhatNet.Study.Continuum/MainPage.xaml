@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="StrawhatNet.UWP.Continuum.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StrawhatNet.UWP.Continuum"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel>
+            <TextBlock Style="{StaticResource TitleStyle}" Text="Continuumサンプル"/>
+            <TextBlock Margin="12" Text="Anchor側"/>
+            <Button Style="{StaticResource ButtonStyle}" Click="Projection_Click">&#xE2B4; 外部ディスプレイ表示開始</Button>
+            <Button Style="{StaticResource ButtonStyle}" Click="SwapProjection_Click">&#xe2b3; 画面入れ替え</Button>
+        </StackPanel>
+
+    </Grid>
+</Page>
